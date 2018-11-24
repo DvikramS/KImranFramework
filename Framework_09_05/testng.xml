@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automated_TestSuite">
+
+<listeners>
+<listener class-name="Listener.TestsListenerAdapter"/>
+</listeners>
+
+<test name="LoginTests" preserve-order="true">
+    <classes>     
+        <class name="TestCases.LoginTests" ></class> 
+        <class name="TestCases.switchWebsiteTest" ></class> 
+        <class name="TestCases.NecessaryTests" ></class>
+        <class name="TestCases.ContactTests.AddContactTests"></class> 
+        <class name="TestCases.UserTests"></class>
+        <class name="TestCases.InquiryTests.AddInquiryTests"></class> 
+        <class name="TestCases.InquiryTests.InquiryCategoryTests"></class> 
+        <class name="TestCases.InquiryTests.SearchInquiryTests"></class>
+        <class name="TestCases.InquiryTests.InquiryCategoryReportTests"></class>
+        <class name="TestCases.InquiryTests.InquiryDashboardTests"></class>
+        <class name="TestCases.InquiryTests.NotificationSettingTests"></class>
+        <class name="TestCases.InquiryTests.InquiryDetailsTests"></class>
+        <class name="TestCases.ContactTests.EditContactTests"></class>
+        <class name="TestCases.ContactTests.CombineContactsTests"></class>
+        <class name="TestCases.ContactTests.ContactDashboardTests"></class>
+        <class name="TestCases.ContactTests.ImportContactTests"></class>
+        <class name="TestCases.ContactTests.DirectoryTests" ></class>
+        <class name="TestCases.ContactTests.GroupTests" ></class>
+        <class name="TestCases.ContactTests.ChannelTests" ></class>
+        <class name="TestCases.NotificationTests.SendNotificationTests" ></class>
+        <class name="TestCases.NotificationTests.DistributionReportTests" ></class>
+        <class name="TestCases.DeletionTests" ></class>
+        <class name="TestCases.NewsFeedsTests.NewsFeedsTests" ></class>
+        <class name="TestCases.DocumentTests.DocumentManagementTests" ></class>
+        <class name="TestCases.DocumentTests.DocumentManagement_Continuation_Tests" ></class>
+        <class name="TestCases.SurveyTests.SurveyTests" ></class>
+        <class name="TestCases.OtherModuleTests.WebsiteDashboardTests" ></class>
+    </classes>
+</test>
+
+</suite>

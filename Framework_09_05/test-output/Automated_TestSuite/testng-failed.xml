@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automated_TestSuite]">
+  <listeners>
+    <listener class-name="Listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="LoginTests(failed)">
+    <classes>
+      <class name="TestCases.ContactTests.ContactDashboardTests">
+        <methods>
+          <include name="NavigateToContactDashboard"/>
+          <include name="VerifySubscriptionIsClickableAndCountOnContactDasboard"/>
+          <include name="VerifyAddContactFromContactDashBoard" invocation-numbers="0"/>
+          <include name="VerifyDirectoryClickableAndCountOnContactDasboard"/>
+          <include name="VerifySearchContactNavigationFromContactDashboard"/>
+          <include name="VerifyGroupClickableAndCountOnContactDasboard"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.ContactDashboardTests -->
+      <class name="TestCases.ContactTests.ImportContactTests">
+        <methods>
+          <include name="NavigateToImportContactPage"/>
+          <include name="VerifyLookupSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.ImportContactTests -->
+      <class name="TestCases.InquiryTests.AddInquiryTests">
+        <methods>
+          <include name="VerifyInquiryEventActions" invocation-numbers="0"/>
+          <include name="CreateNewInquiryForExistingContact" invocation-numbers="0"/>
+          <include name="NavigateToAddInquiryForExistingContact"/>
+          <include name="CreateNewInquiryForNewContact_LogReponse" invocation-numbers="0"/>
+          <include name="VerifyContactsCreatedFromInquiry" invocation-numbers="0"/>
+          <include name="NavigateToAddInquiryForNewContact"/>
+          <include name="CreateNewInquiry" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.AddInquiryTests -->
+      <class name="TestCases.UserTests">
+        <methods>
+          <include name="NavigateToUserLists"/>
+          <include name="CreateNewUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.UserTests -->
+      <class name="TestCases.InquiryTests.InquiryCategoryReportTests">
+        <methods>
+          <include name="ClickOnCategoryCount" invocation-numbers="0"/>
+          <include name="NavigateToInquiryCategoryReportPage"/>
+          <include name="SearchOnCategoryReport" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.InquiryCategoryReportTests -->
+      <class name="TestCases.NewsFeedsTests.NewsFeedsTests">
+        <methods>
+          <include name="verifyAddNewsFeed"/>
+          <include name="verifyNavigateToNewsFeedsPage"/>
+          <include name="verifyAddNewsAggregateFeed" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.NewsFeedsTests.NewsFeedsTests -->
+      <class name="TestCases.DocumentTests.DocumentManagement_Continuation_Tests">
+        <methods>
+          <include name="VerifyFolderOptionLabels" invocation-numbers="0"/>
+          <include name="VerifyNavigationToInquiryAnswers"/>
+          <include name="VerifyContentInjectionFolder" invocation-numbers="0"/>
+          <include name="VerifySubscribeContactPublicPage" invocation-numbers="0"/>
+          <include name="VerifyDocumentCreation" invocation-numbers="0"/>
+          <include name="VerifyInquiryAnswerPageSavedSuccessfully"/>
+          <include name="VerifyContentInjectionFeeds" invocation-numbers="0"/>
+          <include name="VerifyInquiryAnswerCheckboxIsSelected"/>
+          <include name="VerifySearchDocumentsBulkArchive" invocation-numbers="0"/>
+          <include name="VerifyPublishedDocumentIsDisplayed" invocation-numbers="0"/>
+          <include name="VerifySearchOnPublicView" invocation-numbers="0"/>
+          <include name="VerifyNavigationToBulkArchivepage"/>
+          <include name="VerifyContentInjectionRecentUpdates" invocation-numbers="0"/>
+          <include name="VerifyInquiryAnswerInDropdown" invocation-numbers="0"/>
+          <include name="VerifyAddInquiryPublicPage" invocation-numbers="0"/>
+          <include name="VerifyArchiveDocument"/>
+        </methods>
+      </class> <!-- TestCases.DocumentTests.DocumentManagement_Continuation_Tests -->
+      <class name="TestCases.ContactTests.AddContactTests">
+        <methods>
+          <include name="CreateNewContact" invocation-numbers="0"/>
+          <include name="NavigateToAddContact"/>
+          <include name="VerifyDuplicateContactCheck" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.AddContactTests -->
+      <class name="TestCases.DocumentTests.DocumentManagementTests">
+        <methods>
+          <include name="VerifyDeleteDocument_DMS" invocation-numbers="0"/>
+          <include name="VerifyButtonsPresenceOnAddDocumentPage" invocation-numbers="0"/>
+          <include name="VerifySubmitForApprovalDocument" invocation-numbers="0"/>
+          <include name="VerifyArchiveDocumentFromMoreDropdwon" invocation-numbers="0"/>
+          <include name="VerifyAddTemplate" invocation-numbers="0"/>
+          <include name="VerifySendDocumentAsNotification" invocation-numbers="0"/>
+          <include name="VerifyScheduleDocument" invocation-numbers="0"/>
+          <include name="VerifyApproveDocument" invocation-numbers="0"/>
+          <include name="VerifyEditedDocumentOldVersion" invocation-numbers="0"/>
+          <include name="VerifyPublishDocument" invocation-numbers="0"/>
+          <include name="VerifyUnArchiveDocument" invocation-numbers="0"/>
+          <include name="VerifyAddSignature" invocation-numbers="0"/>
+          <include name="VerifyDocumentDescription" invocation-numbers="0"/>
+          <include name="VerifyEditDocumentFile" invocation-numbers="0"/>
+          <include name="VerifyMergeSignature"/>
+          <include name="VerifyNavigateToDocumentManagementPage"/>
+          <include name="VerifyNavigationToArchiveMessagePage"/>
+          <include name="VerifySendEmailToUser_Document" invocation-numbers="0"/>
+          <include name="NavigateToDocumentApprovalListPage"/>
+          <include name="VerifyPublishAndArchiveDocument" invocation-numbers="0"/>
+          <include name="VerifyNewDraftFromDocument_DMS" invocation-numbers="0"/>
+          <include name="VerifySaveHomePageSettingsPage"/>
+          <include name="VerifySaveArchiveMessagePage"/>
+          <include name="VerifyPublishedDocumentDisplayedOnPublicView" invocation-numbers="0"/>
+          <include name="VerifyNavigationToHomePageSettingsPage"/>
+          <include name="VerifyDescriptionOnHomePage"/>
+          <include name="VerifyArchivedDocumentDisplayedOnPublicView" invocation-numbers="0"/>
+          <include name="VerifyAddDocumentFile" invocation-numbers="0"/>
+          <include name="VerifyUnPublishDocument" invocation-numbers="0"/>
+          <include name="VerifyDocumentApproverSelection" invocation-numbers="0"/>
+          <include name="VerifyAddFolderFromIcon" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.DocumentTests.DocumentManagementTests -->
+      <class name="TestCases.InquiryTests.SearchInquiryTests">
+        <methods>
+          <include name="VerifyAdvanceSearchUsingStatus" invocation-numbers="0"/>
+          <include name="NavigateToAdvanceSearchBox"/>
+          <include name="ApplyActionCategoryRemove" invocation-numbers="0"/>
+          <include name="VerifyAdvanceSearchUsingkeyword" invocation-numbers="0"/>
+          <include name="NavigateToSearchInquiry"/>
+          <include name="ApplyActionCategory" invocation-numbers="0"/>
+          <include name="VerifyAdvanceSearchUsingReceivedVia" invocation-numbers="0"/>
+          <include name="SubmitResponseMultipleInquiries" invocation-numbers="0"/>
+          <include name="VerifyAdvanceSearchUsingDirectory" invocation-numbers="0"/>
+          <include name="VerifyInquiryAssignedToMine" invocation-numbers="0"/>
+          <include name="VerifyViewAsReportButton" invocation-numbers="0"/>
+          <include name="SearchWithInquiryId" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.SearchInquiryTests -->
+      <class name="TestCases.NotificationTests.DistributionReportTests">
+        <methods>
+          <include name="VerifyBackButtonFunctionalityOnDistributionDetails"/>
+          <include name="VerifyNavigateToExceptionTab"/>
+          <include name="VerifyNavigateToDistributionReportPage"/>
+          <include name="VerifyGeofencingMapTab" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.NotificationTests.DistributionReportTests -->
+      <class name="TestCases.NotificationTests.SendNotificationTests">
+        <methods>
+          <include name="VerifyGeofencingSectionPresence"/>
+          <include name="VerifySendNotificationToDirectory_Geofencing" invocation-numbers="0"/>
+          <include name="VerifyContactDetailsOnPopUp_Channel" invocation-numbers="0"/>
+          <include name="NavigateToSendNotificationPage"/>
+          <include name="VerifyContacAssociations" invocation-numbers="0"/>
+          <include name="VerifySendNotificationToGroup_Geofencing" invocation-numbers="0"/>
+          <include name="VerifySendNotificationToContact_Geofencing" invocation-numbers="0"/>
+          <include name="VerifyContactDetailsOnDirectoryPopUp" invocation-numbers="0"/>
+          <include name="VerifyContactDetailsOnGroupPopUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.NotificationTests.SendNotificationTests -->
+      <class name="TestCases.ContactTests.DirectoryTests">
+        <methods>
+          <include name="VerifyActionsIconsOnDirectoryPage"/>
+          <include name="VerifyDirectoryisPublic" invocation-numbers="0"/>
+          <include name="VerifyDeletedDirectoryNotDisplayedInSearchContact" invocation-numbers="0"/>
+          <include name="VerifyAddedDirectoryIsDisplayedInContacts" invocation-numbers="0"/>
+          <include name="VerifyWildFieldsForDifferentDirectoriesOnAddContacPage" invocation-numbers="0"/>
+          <include name="VerifyLabelsOnEditDirectoryPage" invocation-numbers="0"/>
+          <include name="VerifyDeleteDirectory" invocation-numbers="0"/>
+          <include name="EditDirectory" invocation-numbers="0"/>
+          <include name="CreateDirectoryWithAllWildFields" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.DirectoryTests -->
+      <class name="TestCases.InquiryTests.InquiryDashboardTests">
+        <methods>
+          <include name="VerifyExcerptIsClickable"/>
+          <include name="NavigateToInquiryDashboard"/>
+          <include name="VerifyCategoryClickableAndCount"/>
+          <include name="VerifyThatSeeAllRecordsIsClickable"/>
+          <include name="VerifyDirectoryClickableAndCount"/>
+          <include name="VerifyAddInquiryForNewContactNavigationFromInquiryListOptions" invocation-numbers="0"/>
+          <include name="VerifyAddInquiryForExistingContactNavigationFromInquiryListOptions" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.InquiryDashboardTests -->
+      <class name="TestCases.ContactTests.GroupTests">
+        <methods>
+          <include name="VerifySearchGroup" invocation-numbers="0"/>
+          <include name="AddSmartGroup" invocation-numbers="0"/>
+          <include name="VerifyNavigationToGroupListPage"/>
+          <include name="ViewDetailsOfBasicGroup" invocation-numbers="0"/>
+          <include name="VerifyDeleteGroup" invocation-numbers="0"/>
+          <include name="VerifyEditSmartGroup" invocation-numbers="0"/>
+          <include name="EditBasicGroup" invocation-numbers="0"/>
+          <include name="AddBasicGroupAndAssociateContact" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.GroupTests -->
+      <class name="TestCases.ContactTests.CombineContactsTests">
+        <methods>
+          <include name="VerifyNavigationToCombineContactPage"/>
+          <include name="VerifyCombiningContacts" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.CombineContactsTests -->
+      <class name="TestCases.NecessaryTests">
+        <methods>
+          <include name="NavigateToDirectoryListPage"/>
+          <include name="CreateDirectory" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.NecessaryTests -->
+      <class name="TestCases.ContactTests.ChannelTests">
+        <methods>
+          <include name="VerifyContactSubscribeChannelSuccessfully" invocation-numbers="0"/>
+          <include name="VerifyDeleteChannel" invocation-numbers="0"/>
+          <include name="VerifyAddChannel" invocation-numbers="0"/>
+          <include name="NavigateToChannelListPage"/>
+          <include name="VerifySendNotificationtUsingChannel" invocation-numbers="0"/>
+          <include name="VerifyEditChannel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.ChannelTests -->
+      <class name="TestCases.InquiryTests.InquiryCategoryTests">
+        <methods>
+          <include name="EditInquiryCategory" invocation-numbers="0"/>
+          <include name="SetCategoryPublic" invocation-numbers="0"/>
+          <include name="CreateInquiryCategory" invocation-numbers="0"/>
+          <include name="NavigateInquiryCategory"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.InquiryCategoryTests -->
+      <class name="TestCases.ContactTests.EditContactTests">
+        <methods>
+          <include name="VerifyMultipleDirectoryAssociation" invocation-numbers="0"/>
+          <include name="VerifyCreateGuestUser" invocation-numbers="0"/>
+          <include name="VerifyContactGroupAssociationTab" invocation-numbers="0"/>
+          <include name="VerifyGuestUserMandatoryPasswordMsg" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.ContactTests.EditContactTests -->
+      <class name="TestCases.InquiryTests.InquiryDetailsTests">
+        <methods>
+          <include name="VerifyApplyActionFromInquiryDetails" invocation-numbers="0"/>
+          <include name="VerifyInquiryDeletion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.InquiryDetailsTests -->
+      <class name="TestCases.LoginTests">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="setMethodName"/>
+        </methods>
+      </class> <!-- TestCases.LoginTests -->
+      <class name="TestCases.OtherModuleTests.WebsiteDashboardTests">
+        <methods>
+          <include name="verifyDocumentTabCountAndNavigation"/>
+          <include name="verifyContactDirectoriesNavigation"/>
+          <include name="verifyNavigationToWebsiteDashboard"/>
+          <include name="verifyContactTabCountAndNavigation"/>
+          <include name="verifyInquiryListExcerptNavigation"/>
+          <include name="verifyInquiryTabCountAndNavigation"/>
+        </methods>
+      </class> <!-- TestCases.OtherModuleTests.WebsiteDashboardTests -->
+      <class name="TestCases.DeletionTests">
+        <methods>
+          <include name="VerifyContactDeletion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.DeletionTests -->
+      <class name="TestCases.SurveyTests.SurveyTests">
+        <methods>
+          <include name="verifyAddSurveyandQuestionSuccessfully" invocation-numbers="0"/>
+          <include name="verifySubmitSurveyResponse" invocation-numbers="0"/>
+          <include name="verifySurveyResponses" invocation-numbers="0"/>
+          <include name="verifySurveyDeletion" invocation-numbers="0"/>
+          <include name="verifyNewSurveyIsDisplayed" invocation-numbers="0"/>
+          <include name="verifyEditSurvey" invocation-numbers="0"/>
+          <include name="verifyNavigationToSurveyListPage"/>
+          <include name="verifyAddSurveyAnswerSuccessfully" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.SurveyTests.SurveyTests -->
+      <class name="TestCases.switchWebsiteTest">
+        <methods>
+          <include name="switchWebsite"/>
+        </methods>
+      </class> <!-- TestCases.switchWebsiteTest -->
+      <class name="TestCases.InquiryTests.NotificationSettingTests">
+        <methods>
+          <include name="VerifyNavigateToNotificationSetting"/>
+          <include name="VerifyAbleToSelectUserandUpdateOptionForInternallyCreatedInquiries"/>
+          <include name="VerifyAbleToSelectUserforSurvey"/>
+        </methods>
+      </class> <!-- TestCases.InquiryTests.NotificationSettingTests -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [Automated_TestSuite] -->
